@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000;
+  color: #fff;
+  padding: 40px 10px;
+  text-align: center;
+}
+
+marquee p {
+  font-size: 28px;
+  color: #00ffff;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 10px 20px;
+  background-color: steelblue;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.menu a:hover {
+  background-color: dodgerblue;
+  transform: scale(1.05);
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cuadro, .cuadro1, .cuadro2, .cuadro3, .cuadro4, .cuadro5 {
+  background-color: #1e1e1e;
+  border: 2px solid #333;
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #00ffff44;
+  transition: all 0.3s ease;
+}
+
+.cuadro:hover, .cuadro1:hover, .cuadro2:hover, .cuadro3:hover, .cuadro4:hover, .cuadro5:hover {
+  background-color: #333;
+  box-shadow: 0 0 15px #00ffff;
+}
+
+.cuadro h2, .cuadro1 h2, .cuadro2 h2, .cuadro3 h2, .cuadro4 h2, .cuadro5 h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #ffcc00;
+  cursor: pointer;
+  text-align: center;
+}
+
+.ovalada {
+  width: 300px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 20px auto;
+  display: block;
+}
+
+.punteado {
+  border: 3px dotted #00ffff;
+  border-radius: 15px;
+  width: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.gif {
+  width: 300px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.boton-volver, .boton-ver-mas {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #00BFFF;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.boton-volver:hover, .boton-ver-mas:hover {
+  background-color: #009acd;
+}
+.titulo-seccion {
+  cursor: pointer;
+  user-select: none;
+}
+
+.contenido {
+  display: none;
+  margin-top: 15px;
+  transition: all 0.3s ease;
+}
+
+.desplegable.activo .contenido {
+  display: block;
+}

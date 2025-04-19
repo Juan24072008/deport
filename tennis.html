@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enciclopedia de Tenis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="tennis.css">
+</head>
+<body>
+
+    <a href="deportes.html">boton volver</a>
+
+
+  <header>
+    <div class="container header-content">
+      <h1>Enciclopedia de Tenis</h1>
+      <button id="theme-toggle" aria-label="Cambiar tema">🌙</button>
+    </div>
+  </header>
+
+  <nav class="container nav">
+    <ul>
+      <li><a href="#historia">Historia</a></li>
+      <li><a href="#jugadores">Leyendas</a></li>
+      <li><a href="#estadisticas">Estadísticas</a></li>
+      <li><a href="#reglas">Reglas</a></li>
+      <li><a href="#curiosidades">Curiosidades</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <section id="historia">
+      <h2>Historia del Tenis</h2>
+      <p>Los primeros indicios de un ancestro del tenis se remontan al siglo XII en Francia, donde se jugaba una versión en interiores denominada <em>jeu de paume</em>. Los jugadores golpeaban la pelota con la palma de la mano, de ahí su nombre.</p>
+      <p>En el siglo XVI, el juego ganó popularidad en la realeza europea, especialmente en la corte de Enrique VIII en Inglaterra. Se construyeron las primeras canchas al aire libre con reglas rudimentarias.</p>
+      <p>Con la Revolución Industrial y la invención del caucho vulcanizado, a principios del siglo XIX se comenzaron a fabricar pelotas más uniformes. En 1874, el Major Walter Clopton Wingfield patentó el <em>Sphairistike</em>, sentando las bases del tenis moderno.</p>
+      <p>El 7 de julio de 1877 se celebró el primer torneo de Wimbledon, el más antiguo y prestigioso del mundo. En 1924, el tenis regresó a los Juegos Olímpicos tras su debut en 1896.</p>
+      <p>La Era Abierta comenzó en 1968, permitiendo la participación de profesionales en los torneos de Grand Slam y transformando el deporte en un negocio global. En 1973 se fundó la Asociación de Tenistas Profesionales (ATP). A partir de los años 70, las raquetas evolucionaron de madera a grafito y compuestos avanzados.</p>
+      <p>En 2001 se introdujo el sistema de revisión de jugadas Hawk-Eye, revolucionando la exactitud arbitral. El tenis demostró su resiliencia en 2020, adaptándose a la pandemia con torneos sin público y protocolos estrictos.</p>
+      <div class="timeline">
+        <div class="evento"><h3>1150</h3><p>Primeros indicios de <em>jeu de paume</em>.</p></div>
+        <div class="evento"><h3>1559</h3><p>Juego en la corte de Enrique VIII.</p></div>
+        <div class="evento"><h3>1874</h3><p>Patente del <em>Sphairistike</em> por Wingfield.</p></div>
+        <div class="evento"><h3>1877</h3><p>Primer torneo de Wimbledon.</p></div>
+        <div class="evento"><h3>1924</h3><p>Tenis en los Juegos Olímpicos.</p></div>
+        <div class="evento"><h3>1968</h3><p>Inicio de la Era Abierta.</p></div>
+        <div class="evento"><h3>1973</h3><p>Fundación de la ATP.</p></div>
+        <div class="evento"><h3>2001</h3><p>Introducción de Hawk-Eye.</p></div>
+        <div class="evento"><h3>2020</h3><p>Torneos sin público por pandemia.</p></div>
+      </div>
+    </section>
+
+    <section id="jugadores">
+      <h2>Leyendas del Tenis</h2>
+      <div class="cards">
+        <article class="card">
+          <img src="img/roger.jpeg" alt="Roger Federer">
+          <h3>Roger Federer</h3>
+          <p class="resumen">20 Grand Slams, 310 semanas como #1. Máxima elegancia.</p>
+          <button class="expand">Leer más</button>
+          <div class="detalle">
+            <p>Federer destacó por su juego versátil y adaptabilidad en todas las superficies. Ganó 8 títulos en Wimbledon y mantuvo récord de 237 victorias consecutivas en pista de césped.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="img/rafael.jpeg" alt="Rafael Nadal">
+          <h3>Rafael Nadal</h3>
+          <p class="resumen">22 Grand Slams, 14 Roland Garros. Fuerza y tenacidad.</p>
+          <button class="expand">Leer más</button>
+          <div class="detalle">
+            <p>Nadal es conocido como el "Rey de la Arcilla" por su dominio en Roland Garros. Su estilo de juego físico y spins imposibles lo convierten en uno de los más temidos.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="img/novak.jpeg" alt="Novak Djokovic">
+          <h3>Novak Djokovic</h3>
+          <p class="resumen">24 Grand Slams, historial de resistencia.</p>
+          <button class="expand">Leer más</button>
+          <div class="detalle">
+            <p>Djokovic destaca por su flexibilidad y retorno de saque. Es el líder histórico en semanas como número uno y domina todas las superficies.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="estadisticas">
+      <h2>Estadísticas Clave</h2>
+      <ul class="stats-list">
+        <li><strong>Grand Slams combinados:</strong> 66</li>
+        <li><strong>Roland Garros títulos:</strong> 32</li>
+        <li><strong>Semanas #1 totales:</strong> +900</li>
+        <li><strong>Victorias en césped:</strong> Récord de Federer (237)</li>
+      </ul>
+    </section>
+
+    <section id="reglas">
+      <h2>Reglas y Puntuación</h2>
+      <ol>
+        <li><strong>Puntos:</strong> 0, 15, 30, 40 y ventaja.</li>
+        <li><strong>Juegos:</strong> Un set se gana con 6 juegos y diferencia de 2.</li>
+        <li><strong>Sets:</strong> Mejores a 3 o 5 sets según torneo.</li>
+        <li><strong>Superficies:</strong> Césped, arcilla y pista dura.</li>
+        <li><strong>Equipamiento:</strong> Raqueta, pelota y vestimenta.</li>
+      </ol>
+    </section>
+
+    <section id="curiosidades">
+      <h2>Curiosidades</h2>
+      <ul>
+        <li>La pelota de tenis era blanca hasta 1972, luego cambió a amarillo para mejorar la visibilidad en televisión.</li>
+        <li>El partido más largo de la historia duró 11 horas y 5 minutos (John Isner vs. Nicolas Mahut, Wimbledon 2010).</li>
+        <li>Wimbledon es el único Grand Slam que aún se juega con césped natural y obliga a los jugadores a vestir de blanco.</li>
+        <li>El récord de aces en un partido lo tiene Ivo Karlovic, con 78 en un encuentro de 2016.</li>
+      </ul>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form id="contacto-form">
+        <label>Nombre<input type="text" name="nombre" required></label>
+        <label>Email<input type="email" name="email" required></label>
+        <label>Mensaje<textarea name="mensaje" rows="4" required></textarea></label>
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="form-response"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Enciclopedia de Tenis</p>
+  </footer>
+
+  <script src="tenis.js"></script>
+</body>
+</html>

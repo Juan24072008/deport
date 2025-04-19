@@ -1,0 +1,162 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-image: url("img/Voleibol.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: white;
+    padding: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 20px 0;
+    text-shadow: 2px 2px 6px black;
+  }
+  
+  .titulo-secciones {
+    text-align: center;
+    margin: 40px 0 10px;
+    font-size: 2rem;
+  }
+  
+  .menu-secciones ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    padding: 10px 0;
+  }
+  
+  .menu-secciones a {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .menu-secciones a:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  .multimedia-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  img, video {
+    width: 300px;
+    height: 220px;
+    border-radius: 15px;
+    object-fit: cover;
+    border: 4px solid white;
+    transition: transform 0.3s, filter 0.3s;
+  }
+  
+  img:hover, video:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+  }
+  
+  .contenedor {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    margin: 30px auto;
+    padding: 20px;
+    width: 85%;
+    max-width: 800px;
+    color: #222;
+    text-align: justify;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .contenedor:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .contenedor h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #111;
+  }
+  
+  .leer-mas {
+    display: inline-block;
+    margin-top: 15px;
+    background: orangered;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .leer-mas:hover {
+    background: darkred;
+  }
+  
+  .extra-text {
+    display: none;
+    color: #333;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+  
+  .extra-text.open {
+    display: inline;
+    max-height: 200px;  
+  }
+  
+  
+  .intro { border-left: 6px solid #f97316; }
+  .historia { border-left: 6px solid #2563eb; }
+  .olimpicos { border-left: 6px solid #22c55e; }
+  .jugadores { border-left: 6px solid #ec4899; }
+  .equipos { border-left: 6px solid #facc15; }
+  
+  .boton-volver,
+  .boton-inicio {
+    position: fixed;
+    right: 20px;
+    background: #0d6efd;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+    z-index: 999;
+  }
+  
+  .boton-volver {
+    bottom: 80px;
+  }
+  
+  .boton-inicio {
+    bottom: 20px;
+  }
+  
+  .boton-volver:hover,
+  .boton-inicio:hover {
+    background: #084298;
+  }
